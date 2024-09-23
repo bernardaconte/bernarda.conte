@@ -1,0 +1,38 @@
+1  ls
+    2  cd ../Documents/'Diplo Humanidades digitales'/'Unidad 5'
+    3  cd ../Documents
+    4  cd ./Documents/'Diplo Humanidades digitales'/'Unidad 5'
+    5  ls
+    6  head 'el arriero.txt' | wc -w
+    7  head 'el arrieri.txt' | git ask 'vaquitas'
+    8  head 'el arriero.txt' | git ask 'vaquitas'
+    9  head 'el arriero.txt' | git grep -n
+   10  head 'el arriero.txt' | wc -w
+   11  head 'el arriero.txt' | grep -vaquitas
+   12  head 'el arriero.txt' | grep -o vaquitas | wc -l
+   13  head 'el arriero.txt' | grep -vaquitas vaquitas | wc -l
+   14  history
+   15  mkdir comandos
+   16  cd ./comandos
+   17  touch 50comandos.txt
+18  echo "$ history
+    1  ls
+    2  cd ../Documents/'Diplo Humanidades digitales'/'Unidad 5'
+    3  cd ../Documents
+    4  cd ./Documents/'Diplo Humanidades digitales'/'Unidad 5'
+    5  ls
+    6  head 'el arriero.txt' | wc -w
+    7  head 'el arrieri.txt' | git ask 'vaquitas'
+    8  head 'el arriero.txt' | git ask 'vaquitas'
+    9  head 'el arriero.txt' | git grep -n
+   10  head 'el arriero.txt' | wc -w
+   11  head 'el arriero.txt' | grep -vaquitas
+   12  head 'el arriero.txt' | grep -o "vaquitas" | wc -l
+   13  head 'el arriero.txt' | grep -vaquitas "vaquitas" | wc -l
+   14  history" > 50comandos.txt
+   19  cat 50comandos.txt
+   20  history
+   21  touch 50comandos.log
+   22  echo "$ history
+
+
