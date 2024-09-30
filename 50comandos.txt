@@ -1,4 +1,4 @@
-ls
+1  ls
     2  cd ./Documents/Diplo Humanidades digitales/'Unidad 5'
     3  cd ./Documents
     4  ls
